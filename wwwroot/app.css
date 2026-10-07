@@ -1,0 +1,38 @@
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 0;
+    color: #222;
+}
+
+.menu {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 0.75rem 1.5rem;
+    background: #3b2a72;
+}
+
+.menu strong,
+.menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu a.active {
+    text-decoration: underline;
+}
+
+main {
+    padding: 1.5rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+.placar {
+    font-size: 4rem;
+    margin: 1rem 0;
+}
